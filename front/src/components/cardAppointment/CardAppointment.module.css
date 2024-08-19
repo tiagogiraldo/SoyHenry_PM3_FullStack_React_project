@@ -1,0 +1,28 @@
+.container {
+    background-color: blue;
+    color:white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px;
+    margin: 40px;
+    span {
+        flex: 0 0 25%
+    }
+}
+
+.active {
+    color: white;
+    &:hover{
+        background-color: rgb(120, 120, 218);
+        cursor: pointer;
+        border-bottom: thick;
+        border-color: #ff851b;}
+}
+
+.cancelled{
+    color: grey;
+}
+

@@ -1,0 +1,44 @@
+.cardContainer {
+    position:absolute;
+    text-align: center;
+    display: block;
+    top:-13%;
+    padding: 1em;
+    /* align-items: flex-start; */
+    font-size: 2.5em;
+    background-color:  #2E30FF;
+    color: lightcyan;;
+    border-radius: 30px;
+    /* margin: 10px; */
+    aspect-ratio: auto;
+    transform: scale(0.60);
+    img{
+        /* height: 10%; */
+        border-radius: 50%;
+        transform: scale(0.60);
+    };
+
+    p{
+        text-align: justify;    
+    }
+}
+
+.cardList{
+    text-align: left;
+}
+
+/* Código Ariel */
+/* .cardContainer {
+    display: flex;
+    padding: 1em;
+    align-items: center;
+    font-size: 0.8em;
+    text-align: justify;
+    background-color:  #2E30FF;
+    color: lightcyan;;
+    border-radius: 5px;
+    margin: 15px;
+    img{
+        height: 500%;
+    }
+} */

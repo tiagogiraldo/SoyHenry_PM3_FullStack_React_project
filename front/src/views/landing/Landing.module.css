@@ -1,0 +1,43 @@
+.landing {
+    position: fixed;
+    top:0;
+    right:0;
+    width:100%;   
+    text-align: center;
+    display: block;
+    padding: 1em;
+    align-items: center;
+    font-size: 2.0em;
+    background-color:  #2E30FF;
+    color: lightcyan;;
+    border-radius: 30px;
+    margin: 1px;
+    aspect-ratio: auto;
+    transform: scale(0.600);
+    img{
+        /* height: 10%; */
+        border-radius: 500%;
+    };
+
+    h1, h2{
+        /* text-align: justify;  */
+        text-align:center;   
+    }
+}
+
+
+.landing button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 1px 0;
+    border: none;
+    border-radius: 10px;
+    background-color: #eca011;
+    color: #ffffff;
+    cursor: pointer;
+    display: center;
+}
+
+.landing button[type="submit"]:hover {
+    background-color: #000a61;
+}
